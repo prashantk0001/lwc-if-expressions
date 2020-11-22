@@ -1,0 +1,10 @@
+<template>
+    <template if:true={ready}>
+        <template if:true={decision}>
+            <slot name="if"></slot>
+        </template>
+        <template if:false={decision}>
+            <slot name="else"></slot>
+        </template>
+    </template>
+</template>
