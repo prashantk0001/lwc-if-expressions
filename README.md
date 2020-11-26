@@ -1,7 +1,7 @@
 # lwc-if-expressions
 
 ```
-<c-lwc-if condition="(this.a == this.b) && (this.c == 6 || this.b = 'easypeasy')" scope={scope}>
+<c-lwc-if condition="(this.a == this.b) && (this.c == 6 || this.b == 'easypeasy')" scope={scope}>
     <div slot="if">
         IFFFFFFFFFFFFFFFFF
     </div>
